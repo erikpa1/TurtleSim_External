@@ -27,10 +27,10 @@ target_link_libraries(${PROJECT_NAME} ${DXGI})
 
 
 #importing SDL
-set(SDL2_DIR ${CMAKE_SOURCE_DIR}/external/SDL2)
+set(SDL2_DIR ${CMAKE_SOURCE_DIR}/TurtleSim_External/SDL2)
 
 
-message( ${CMAKE_SOURCE_DIR}/external/SDL2)
+message( ${CMAKE_SOURCE_DIR}/TurtleSim_External/SDL2)
 
 find_package(SDL2 REQUIRED PATHS ${SDL2_DIR})
 include_directories(${SDL2_INCLUDE_DIRS})
